@@ -11,14 +11,13 @@ export default function App() {
     <div>
       {data.map((item, i) => (
         <div key={i} style={{
-
           backgroundColor: 'lightgray',
           padding: '10px',
           margin: '10px',
           borderRadius: '5px',
           color: 'black'
-
         }}>
+        {/* É a div que mostra os dados da api, você modifica os dados (exemplo: {item.title} ) conforme os dados que estejam na api que você utilizar */}
 
           <p>
             Título: {item.title}
