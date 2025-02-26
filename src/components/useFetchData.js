@@ -12,7 +12,7 @@ export const useFetchData = () =>{
             try{
                 const response = await api.get('/');
                 setData(response.data);
-                console.log(response.data)
+                console.log(response.data);
             }
             catch(err){
                 console.error("Erro ao buscar dados", err);
